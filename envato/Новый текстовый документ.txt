@@ -1,0 +1,5 @@
+<i class="fa fa-plus-circle"></i>
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-behance"></i>
+<i class="fa fa-dribbble"></i>
