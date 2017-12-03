@@ -1,0 +1,8 @@
+$browser-context: 16 // Default
+
+@function em($pixels, $context: $browser-context) 
+  @return #{$pixels/$context}em
+
+$main-color: #4a454b
+$main-color-2: #4b4d4f
+$accent-color: #90d23d
