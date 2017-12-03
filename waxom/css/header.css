@@ -205,6 +205,8 @@ header a:hover { color: #bfab93; }
   .footer-wrapper .col.footer-posts p, .footer-wrapper .col.twitter p, .footer-wrapper .col.widgets p { color: #fff; }
   .footer-wrapper .col.footer-posts .date, .footer-wrapper .col.footer-posts .when, .footer-wrapper .col.twitter .date, .footer-wrapper .col.twitter .when, .footer-wrapper .col.widgets .date, .footer-wrapper .col.widgets .when { color: #c7b299; }
   .footer-wrapper .col.widgets .item { width: 20%; } }
+@media screen and (max-width: 750px) and (min-width: 600px) { /* header */
+  header { height: 110vh; } }
 @media screen and (max-width: 720px) { /* realization */
   .realization .pics { display: flex; flex-direction: column; width: auto; height: auto; }
   .realization .pics img { position: static; width: auto; margin: 15px; object-fit: cover; }
@@ -229,6 +231,7 @@ header a:hover { color: #bfab93; }
   .sponsors-slider .owl-dots { left: 30%; display: inline-block; width: 72%; }
   .sponsors-slider .owl-dot { width: 15px; height: 15px; } }
 @media screen and (max-width: 420px) { /* top-line */
+  .head-content-block { margin: 100px auto 0; }
   .mobile-menu .hidden-li .hidden-in-li { left: 19%; }
   /* realization */
   .realization img { height: 250px; }
