@@ -203,7 +203,9 @@ header a:hover { color: #bfab93; }
   .footer-wrapper .col.footer-posts p, .footer-wrapper .col.twitter p, .footer-wrapper .col.widgets p { color: #fff; }
   .footer-wrapper .col.footer-posts .date, .footer-wrapper .col.footer-posts .when, .footer-wrapper .col.twitter .date, .footer-wrapper .col.twitter .when, .footer-wrapper .col.widgets .date, .footer-wrapper .col.widgets .when { color: #c7b299; }
   .footer-wrapper .col.widgets .item { width: 20%; } }
-@media screen and (max-width: 720px) { /* realization */
+@media screen and (max-width: 720px) { /* header */
+  header { height: 140vh; }
+  /* realization */
   .realization .pics { display: flex; flex-direction: column; width: auto; height: auto; }
   .realization .pics img { position: static; width: auto; margin: 15px; object-fit: cover; }
   /* projects */
