@@ -207,12 +207,12 @@ footer { background-color: #191919; }
   .realization .pics { height: 360px; }
   /* footer */
   .footer-wrapper { width: 95%; } }
-@media screen and (max-width: 1230px) { /* footer */
+@media screen and (max-width: 1230px) { /* header */
+  header { height: 190vh; }
+  /* footer */
   .footer-wrapper .col.text { width: 100%; text-align: center; }
   .footer-wrapper .col.footer-posts, .footer-wrapper .col.twitter, .footer-wrapper .col.widgets { width: 28%; } }
-@media screen and (max-width: 960px) { /* header */
-  header { height: 190vh; }
-  /* top-line */
+@media screen and (max-width: 960px) { /* top-line */
   .top-line { justify-content: space-around; padding: 40px 5px 0; }
   .logomain-about { width: auto; }
   .logo img { width: 100px; }
@@ -271,7 +271,9 @@ footer { background-color: #191919; }
   .tab-buttons { width: 28%; }
   .projects { margin: 0 15px 0; }
   .project { width: 99%; margin: 0 0 15px 0; } }
-@media screen and (max-width: 550px) { /* top-line */
+@media screen and (max-width: 550px) { /* header */
+  header { height: 130vh; }
+  /* top-line */
   .top-line { justify-content: space-between; }
   .main-menu { margin: 0; }
   .on-bigger-screens { display: none; }
