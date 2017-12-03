@@ -184,6 +184,7 @@ header a:hover { color: #bfab93; }
   .more-lupa { top: 0; right: 0; display: block; height: 30px; padding: 4px; background-color: #fbfaf8; }
   .more-lupa a { color: #000; }
   /* for mobile */
+  .for-mobile { padding: 100px 0; }
   .for-mobile .text { flex-direction: column; width: 90%; text-align: center; }
   .for-mobile .text .left, .for-mobile .text .right { margin-top: 15px; }
   .for-mobile .text .left { width: 300px; height: 420px; margin: auto; }
