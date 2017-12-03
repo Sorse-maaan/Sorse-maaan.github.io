@@ -142,7 +142,7 @@ header a:hover { color: #bfab93; }
   /* sponsors */
   .sponsors .carousel-wrapper { width: 90%; }
   .sponsors-slider img { margin: auto; } }
-@media screen and (max-width: 1500px) { /* header */
+@media (max-width: 1500px) { /* header */
   header { height: 140vh; }
   /* header */
   .head-content-block { margin: 150px auto 0; }
