@@ -1,0 +1,508 @@
+body {
+	font: 16px "Open Sans";
+	color: #1d1d1d;
+}
+h1,h2,h3,h4,.big-h {
+	line-height: 1.2;
+	font-family: "Ubuntu";
+	font-weight: bold;
+}
+h1,h2 {
+	margin: 50px 0;
+}
+h1 {
+	margin: 50px 0;
+	font-size: 48px;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	margin: 50px 0 40px;
+	font-size: 24px;
+}
+h4 {
+	margin: 50px 0 30px;
+	font-size: 18px;
+}
+p {
+	margin: 25px 0;
+}
+a {
+	color: ;
+	text-decoration: none;
+	transition: .3s ease-in-out;
+}
+img {
+	max-width: 100%;
+}
+.button, .button-2 {
+	text-align: center;
+	font-weight: bold;
+	border-radius: 50px;
+}
+.button {
+	display: block;
+	width: 250px;
+	margin: auto;
+	padding: 15px 0;
+	font-size: 24px;
+	background-color: #fe3e11;
+	color: #fff;
+}
+.button:hover {
+	box-shadow: 0 3px 24px #fe3e11;
+}
+.button-2 {
+	display: inline-block;
+	width: 160px;
+	padding: 15px 0;
+	border: 2px solid #2142c8;
+	color: #2142c8;
+}
+.button-2:hover {
+	background-color: #2142c8;
+	box-shadow: 0 3px 24px #2142c8;
+	color: #fff;
+}
+.inner-space {
+	padding: 0 18%
+}
+.active {
+	display: block!important;
+}
+.active-f {
+	display: flex!important;
+	justify-content: space-around;
+}
+/* header */
+.top-line-wrapper {
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	background-color: #fff;
+}
+.top-line {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px!important;
+	padding-bottom: 10px!important;
+}
+.top-line a {
+	font-weight: bold;
+}
+.logo, .main-menu, .log-ord {
+	align-self: center;
+}
+.logo a {
+	padding: 20px;
+    border: 2px solid #eee;
+    color: #1d1d1d;
+}
+.main-menu ul li, .log {
+	margin-right: 40px;
+}
+.main-menu ul li a {
+	color: #1d1d1d;
+}
+.main-menu ul li a:hover {
+	color: #2142c8;
+}
+.main-menu > ul li {
+	display: inline-block;
+}
+.hover-li {
+	position: relative;
+}
+.hover-li:hover ul {
+	display: block;
+}
+.submenu {
+	position: absolute;
+	z-index: 2;
+	display: none;
+	width: 300px;
+	padding: 30px 10px 10px 10px;
+	background-color: #fff;
+}
+.submenu li {
+	width: 100%;
+	margin-top: 10px;
+}
+.log {
+	color: #2142c8;
+}
+.log:hover {
+	color: #1d1d1d;
+}
+.head-content-wrapper {
+	position: relative;
+	z-index: 1;
+	background: url(../img/happy-student.jpg) 50% 2%;
+	background-size: cover;
+}
+.head-content-wrapper::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(33,66,200,.7);
+}
+.head-content-inner {
+	display: flex;
+	justify-content: center;
+	padding: 300px 0 150px;
+	color: #fff;
+}
+.head-content {
+	width: 58%;
+	margin-right: 60px;
+	text-align: center;
+}
+.big-h {
+	font-size: 65px;
+}
+.after-big-h, .h-feature {
+	display: block;
+	font-size: 30px;
+}
+.after-big-h {
+	margin: 30px 0;
+}
+.h-feature {
+	margin: 50px 0;
+}
+.h-feature:first-child {
+	margin-top: 35px;
+}
+.h-feature::before {
+	margin-right: 5px;
+	padding: 18px;
+    font: 50px "icomoon";
+    background-color: #fe3e11;
+    border-radius: 50%;
+    color: #fff;
+}
+.h-feature:first-child::before {
+	content: "\e90f";
+}
+.h-feature:nth-child(2)::before {
+	content: "\e90d";
+}
+.h-feature:last-child::before {
+	content: "\e90e";
+}
+/* mobile-menu */
+.mobile-menu,.m-menu,.log-ord.mobile {
+	display: none;
+}
+.m-menu {
+	position: absolute;
+	left: 0;
+	z-index: 2;
+	box-sizing: border-box;
+  width: 100%;
+  padding: 10px 0 40px;
+  background-color: #fff;
+}
+.m-menu li, .like-li {
+	margin-top: 10px;
+}
+.m-menu li a, .like-li {
+	color: #1d1d1d;
+}
+.like-li {
+	display: inline-block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.products {
+	width: 80%;
+}
+.mobile-submenu {
+	display: flex;
+	flex-wrap: wrap;
+}
+.mobile-submenu li {
+	width: 230px;
+	margin-right: 15px;
+}
+.log-ord.mobile {
+	margin: 50px 0;
+}
+/* features */
+.main-features {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0;
+}
+.m-feature {
+	text-align: center;
+	font-size: 25px;
+}
+.m-feature .num-f, .m-feature span {
+	display: block;
+}
+.m-feature .num-f {
+	font-size: 50px;
+	font-weight: bold;
+	color: #2142c8;
+}
+/* how-works */
+.how-works {
+	position: relative;
+	z-index: 1;
+	padding: 50px 0 100px;
+	background: url("../img/happy-student-2.jpg") 50% 15%;
+	background-size: cover;
+	color: #fff;
+}
+.how-works::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(33,66,200,.7);
+}
+.how-works h2, .how-works h3 {
+	text-align: center;
+}
+.works-description {
+	display: flex;
+	justify-content: space-between;
+}
+.work-desc {
+	width: 22%;
+}
+.short {
+	position: relative;
+	display: flex;
+	height: 90px;
+	padding: 10px;
+	background-color: #fff;
+}
+.short::after {
+	content: "\e917";
+	position: absolute;
+	top: 35%;
+	right: -15%;
+	font: bold 30px "icomoon";
+	color: #fff;
+	transform: rotate(180deg);
+}
+.work-desc:last-child .short::after {
+	display: none;
+}
+.short .number {
+	margin-right: 20px;
+	font-size: 50px;
+	color: #2142c8;
+}
+.short .stage {
+	align-self: center;
+	font-size: 22px;
+	color: #1d1d1d;
+}
+/* choose */
+.choose {
+	padding: 50px 0 100px;
+}
+.choose h2, .choose h3 {
+	text-align: center;
+}
+.choose h2 {
+	margin-bottom: 50px;
+}
+.choose-item-wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.choose-item {
+	width: 28%;
+	margin-top: 50px;
+}
+.choose-item h3 {
+	position: relative;
+}
+.choose-item h3::before {
+	position: absolute;
+	top: -75px;
+    left: 43%;
+	font: 50px "icomoon";
+	color: #2142c8;
+}
+.choose-item:first-child h3::before {
+	content: "\e915";
+}
+.choose-item:nth-child(2) h3::before {
+	content: "\e914";
+}
+.choose-item:nth-child(3) h3::before {
+	content: "\e911";
+}
+.choose-item:nth-child(4) h3::before {
+	content: "\e910";
+}
+.choose-item:nth-child(5) h3::before {
+	content: "\e913";
+}
+.choose-item:last-child h3::before {
+	content: "\e912";
+}
+/*comments*/
+.comments-wrapper {
+	background-color: #eee;
+}
+.comments {
+	padding: 50px 0 100px;
+}
+.comments h2, .comments h3 {
+	text-align: center;
+}
+.owl-carousel {
+	margin-bottom: 50px;
+}
+.comment {
+	position: relative;
+	padding: 10px 10px 20px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.owl-item::after {
+	content: "";
+	position: relative;
+	top: 15px;
+    left: 50px;
+	width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #fff;
+}
+.comment p {
+	margin: 10px 0;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+	display: block!important;
+}
+.owl-nav {
+	text-align: center;
+}
+.owl-nav button {
+	margin: 0 25px;
+	font-size: 50px!important;
+}
+.owl-next i {
+	display: inline-block;
+	transform: rotate(180deg);
+}
+/* main-content */
+.main-content {
+	padding: 0 0 50px;
+}
+.main-con {
+	margin-bottom: 50px;
+}
+.halfs {
+	display: flex;
+	justify-content: space-between;
+}
+.half {
+	width: 45%;
+}
+/* footer */
+footer {
+	background-color: #000;
+	color: #fff;
+}
+footer li {
+	margin: 10px 0;
+}
+footer li a {
+	color: #fff;
+}
+footer li a:hover {
+	text-decoration: underline;
+}
+.footer-inner {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0;
+}
+.col-1 {
+	width: 30%;
+}
+.col-2 {
+	width: 15%;
+}
+.col-3 {
+	width: 28%;
+}
+.col-4 {
+	width: 15%;
+}
+.footer-menu {
+	display: flex;
+	justify-content: space-between;
+}
+.payment {
+	padding: 10px;
+	border: 1px solid #fff;
+}
+.pay-i {
+	display: flex;
+	flex-wrap: wrap;
+}
+.pay-i a {
+	margin-right: 15px;
+	font-size: 60px;
+	line-height: 1;
+	color: #2142c8;
+}
+.pay-i a:hover {
+	color: #fff;
+}
+/* inner */
+header.inner .top-line-wrapper, .main-features-page {
+	border-bottom: 2px solid #eee;
+}
+.inner-content {
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0 50px;
+}
+.inner-con {
+	width: 65%;
+}
+.sidebar {
+	box-sizing: border-box;
+	width: 27%;
+	height: 100%;
+	margin-top: 160px;
+	padding: 20px;
+	background-color: #2142c8;
+}
+.sidebar .h-feature::before, .sidebar .h-feature {
+	font-size: 20px;
+ }
+ .sidebar .h-feature {
+ 	color: #fff;
+ }
+ .header-page {
+	 background: url(../img/lesson.jpg) 50% 32%;
+	 background-size: cover;
+ }
+.header-page .big-h {
+	margin-bottom: 50px;
+}

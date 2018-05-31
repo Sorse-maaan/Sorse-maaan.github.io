@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?5vjw8m');
+  src:  url('icomoon.eot?5vjw8m#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?5vjw8m') format('truetype'),
+    url('icomoon.woff?5vjw8m') format('woff'),
+    url('icomoon.svg?5vjw8m#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-visa:before {
+  content: "\e900";
+}
+.icon-paypal:before {
+  content: "\e901";
+}
+.icon-mastercard:before {
+  content: "\e902";
+}
+.icon-discover:before {
+  content: "\e903";
+}
+.icon-american-express:before {
+  content: "\e904";
+}
+.icon-speed:before {
+  content: "\e90d";
+}
+.icon-dollar:before {
+  content: "\e90e";
+}
+.icon-censored:before {
+  content: "\e90f";
+}
+.icon-plagialism-free:before {
+  content: "\e910";
+}
+.icon-on-time-delivery:before {
+  content: "\e911";
+}
+.icon-individual-approach:before {
+  content: "\e912";
+}
+.icon-high-quality:before {
+  content: "\e913";
+}
+.icon-free-revisions:before {
+  content: "\e914";
+}
+.icon-24:before {
+  content: "\e915";
+}
+.icon-chevron {
+  position: relative;
+  top: 2px;
+  left: 5px;
+  display: inline-block;
+  transform: rotate(90deg);
+}
+.icon-chevron:before {
+  content: "\e916";
+}
+.icon-arrow:before {
+  content: "\e917";
+}
