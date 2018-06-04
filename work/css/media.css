@@ -1,3 +1,8 @@
+@media (max-width: 1800px) {
+	.main-menu ul li, .log {
+		margin-right: 20px;
+	}
+}
 @media (max-width: 1700px) {
 	/* how-works */
 	.short {
@@ -24,9 +29,6 @@
 	/* header */
 	.inner-space {
 		padding: 0 5%;
-	}
-	.main-menu ul li, .log {
-		margin-right: 20px;
 	}
 	.head-content {
 		margin-right: 10px;
