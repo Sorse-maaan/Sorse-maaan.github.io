@@ -79,6 +79,9 @@ img {
 	display: flex!important;
 	justify-content: space-around;
 }
+.m-b-0 {
+	margin-bottom: 0;
+}
 /* header */
 .top-line-wrapper {
 	position: fixed;
@@ -184,9 +187,8 @@ img {
 	margin-right: 5px;
 	padding: 18px;
   font: 50px "icomoon";
-  background-color: #fff;
   border-radius: 50%;
-  color: #1d1d1d;
+  color: #fff;
 }
 .h-feature:first-child::before {
 	content: "\e908";
@@ -406,7 +408,7 @@ img {
 }
 /*comments*/
 .comments-wrapper {
-	background-color: #2142c8;	
+	background-color: #2142c8;
 }
 .comments {
 	padding: 50px 75px 100px;
@@ -463,6 +465,18 @@ img {
 .main-content {
 	padding: 0 0 50px;
 }
+.main-content ul, .main-content ol {
+	margin-left: 15px;
+}
+.main-content ul {
+	list-style: initial;
+}
+.main-content ol {
+	list-style: decimal;
+}
+.main-content .button {
+	margin-top: 20px;
+}
 .main-con {
 	margin-bottom: 50px;
 }
@@ -476,6 +490,7 @@ img {
 /* footer */
 footer {
 	background-color: #000;
+	font-size: 14px;
 	color: #fff;
 }
 footer li {
@@ -493,13 +508,13 @@ footer li a:hover {
 	padding: 50px 0;
 }
 .col-1 {
-	width: 30%;
+	width: 25%;
 }
 .col-2 {
-	width: 35%;
+	width: 55%;
 }
 .col-3 {
-	width: 20%;
+	width: 200px;
 }
 .footer-menu {
 	display: flex;
