@@ -34,10 +34,6 @@
 	.how-works .inner-space {
 		padding: 0 2%;
 	}
-	/* price */
-	.sidebar .h-feature::before, .sidebar .h-feature {
-		font-size: 20px;
-	}
 }
 @media (min-width: 1000px) and (max-width: 1200px) {
 	/* header */
@@ -53,6 +49,13 @@
 	}
 	.col-3 {
 		width: 140px;
+	}
+	/* inner */
+	.sidebar .h-feature::before, .sidebar .h-feature {
+		font-size: 15px;
+	}
+	.sidebar .button {
+		width: 200px;
 	}
 }
 @media (max-width: 1000px) {

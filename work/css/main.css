@@ -498,9 +498,10 @@ footer li {
 }
 footer li a {
 	color: #fff;
+	text-decoration: underline;
 }
 footer li a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 .footer-inner {
 	display: flex;
@@ -549,14 +550,23 @@ header.inner .top-line-wrapper, .main-features-page {
 .inner-con {
 	width: 65%;
 }
+.sidebar, .sidebar a {
+	color: #fff;
+}
 .sidebar {
 	box-sizing: border-box;
 	width: 27%;
 	padding: 20px;
 	background-color: #2142c8;
 }
+.sidebar > div {
+	margin-top: 30px;
+}
+.sidebar h3 {
+	margin: 10px 0;
+}
 .sidebar .h-feature, .sidebar .h-feature::before {
-	font-size: 20px;
+	font-size: 19px;
  }
  .sidebar .h-feature {
  	color: #fff;
@@ -565,10 +575,28 @@ header.inner .top-line-wrapper, .main-features-page {
 	background-color: #fe3e11;
 	color: #fff;
  }
+ .sidebar.blog .h-feature:first-child {
+	margin-top: 60px;
+ }
  .header-page {
 	 background: url(../img/lesson.jpg) 50% 32%;
 	 background-size: cover;
  }
 .header-page .big-h {
 	margin-bottom: 50px;
+}
+/* blog */
+.post {
+	margin-top: 50px;
+	padding: 35px;
+	border: 2px solid #2142c8;
+}
+.post:first-child, .post h2 {
+	margin-top: 0;
+}
+.post a {
+	color: #2142c8;
+}
+.sidebar a:hover {
+	text-decoration: underline;
 }
