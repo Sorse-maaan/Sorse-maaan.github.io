@@ -77,7 +77,6 @@ img {
 }
 .active-f {
 	display: flex!important;
-	justify-content: space-around;
 }
 .m-b-0 {
 	margin-bottom: 0;
@@ -102,6 +101,9 @@ img {
 .logo, .main-menu, .log-ord {
 	align-self: center;
 }
+.logo {
+	margin-top: 7px;
+}
 .main-menu ul li, .log {
 	margin-right: 40px;
 }
@@ -114,22 +116,23 @@ img {
 .main-menu > ul li {
 	display: inline-block;
 }
-.hover-li {
-	position: relative;
-}
-.hover-li:hover ul {
-	display: block;
+.hover-li:hover .submenu {
+	display: flex;
 }
 .submenu {
 	position: absolute;
+	top: 100%;
+	left: 0;
 	z-index: 2;
 	display: none;
-	width: 300px;
-	padding: 30px 10px 10px 10px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 100vw;
+	padding: 30px 120px 10px;
 	background-color: #fff;
 }
 .submenu li {
-	width: 100%;
+	width: 30%;
 	margin-top: 10px;
 }
 .log {
@@ -202,6 +205,7 @@ img {
 /* mobile-menu */
 .mobile-menu,.m-menu,.log-ord.mobile {
 	display: none;
+	justify-content: space-around;
 }
 .m-menu {
 	position: absolute;
@@ -519,7 +523,7 @@ footer li a:hover {
 }
 .footer-menu {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .payment {
 	padding: 10px;

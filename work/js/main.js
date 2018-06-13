@@ -43,7 +43,15 @@ $('a[href*="#"]')
       }
     }
   });
-  
+
+/* main-menu */ 
+$(".hover-li").mouseenter(function() {
+  $(".submenu").addClass("active-f");
+  $(".submenu").mouseout(function() {
+    $(this).removeClass("active-f");
+  });
+});
+
 /* hamburger */
 var $button = $('#menu-btn');
 
