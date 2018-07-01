@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  src: url("../font/Lato/Regular/Lato-Regular.eot");
+  src: url("../font/Lato/Regular/Lato-Regular.otf");
+  src: url("../font/Lato/Regular/Lato-Regular.svg");
+  src: url("../font/Lato/Regular/Lato-Regular.ttf");
+  src: url("../font/Lato/Regular/Lato-Regular.woff");
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 800;
+  src: url("../font/Lato/Bold/Lato-Bold.eot");
+  src: url("../font/Lato/Bold/Lato-Bold.otf");
+  src: url("../font/Lato/Bold/Lato-Bold.svg");
+  src: url("../font/Lato/Bold/Lato-Bold.ttf");
+  src: url("../font/Lato/Bold/Lato-Bold.woff");
+}
