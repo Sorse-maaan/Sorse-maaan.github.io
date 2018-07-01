@@ -162,14 +162,15 @@ input[type="radio"] {
 /* header */
 header.clients {
   background: url("../img/clients-bg.jpg") 50% 40%;
+  background-size: cover;
 }
 header.drivers {
   background: url("../img/drivers-bg.jpg") top center;
+  background-size: cover;
 }
 header {
   position: relative;
   z-index: 1;
-  background-size: cover;
 }
 header::after {
   content: "";
