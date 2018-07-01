@@ -166,7 +166,6 @@ header.clients {
 }
 header.drivers {
   background: url("../img/drivers-bg.jpg") top center;
-  background-size: cover;
 }
 header {
   position: relative;
