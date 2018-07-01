@@ -263,7 +263,7 @@ header::after {
   top: 66px;
   left: -78%;
   width: 100vw;
-  height: 50vh;
+  height: 65vh;
   background-color: #202231;
   transition: all 1s;
 }
@@ -315,7 +315,7 @@ header::after {
   border-radius: 20px;
 }
 .form form {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .form h3 {
   margin-bottom: 35px;
